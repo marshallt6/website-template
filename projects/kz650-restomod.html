@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project | Timothy Marshall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="../">TM</a>
+      <div class="navlinks">
+        <a href="../project.html">Projects</a>
+        <a href="../research.html">Research</a>
+        <a href="../resume.pdf">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Project Title</h1>
+      <p class="muted">Write-up in progress.</p>
+    </section>
+
+    <p style="margin-top: 18px;">
+      <a class="textlink" href="../project.html">← Back to Projects</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

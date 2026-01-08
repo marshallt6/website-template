@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Timothy Marshall | Electrical Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="./">TM</a>
+
+      <div class="navlinks">
+        <a href="./project.html">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./resume-hub.html">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Timothy Marshall</h1>
+      <p class="tagline">Electrical Engineer • Embedded Systems • Automotive & Robotics</p>
+
+      <p class="summary">
+        I’m an electrical engineer with hands-on experience in embedded systems,
+        electromechanical systems, and real-world electrical integration.
+        I focus on designing, debugging, and validating hardware with a strong
+        test and documentation mindset.
+      </p>
+
+      <div class="cta">
+        <a class="button primary" href="./project.html">View Projects</a>
+        <a class="button" href="./resume-hub.html">Resume Hub</a>
+      </div>
+
+      <p class="meta">
+        Portfolio:
+        <a class="textlink" href="https://marshallt6.github.io/resume/" target="_blank" rel="noopener">
+          marshallt6.github.io/resume/
+        </a>
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card project">
+        <h2>Embedded / Controls</h2>
+        <p>
+          Encoder-based motor analysis, sensor integration,
+          control logic, and debugging.
+        </p>
+        <a class="textlink" href="./projects/personal-robotics.html">
+          Featured project →
+        </a>
+        <div style="margin-top: 6px;">
+          <a class="textlink" href="./research.html">
+            Related research →
+          </a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h2>Automotive / Electrical Systems</h2>
+        <p>
+          Wiring, grounding, integration, and troubleshooting
+          on real vehicles and motorcycles.
+        </p>
+        <a class="textlink" href="./projects/kz650-restomod.html">
+          Featured project →
+        </a>
+        <div style="margin-top: 6px;">
+          <a class="textlink" href="./projects/firebird-lt1.html">
+            In-progress build →
+          </a>
+        </div>
+      </article>
+
+      <article class="card project">
+        <h2>Robotics / Systems</h2>
+        <p>
+          System integration across sensing, power,
+          control, testing, and documentation.
+        </p>
+        <a class="textlink" href="./projects/sar-capstone.html">
+          Featured project →
+        </a>
+        <div style="margin-top: 6px;">
+          <a class="textlink" href="./project.html">
+            All projects →
+          </a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+      <span class="sep">•</span>
+      <a class="textlink" href="mailto:youremail@example.com">
+        youremail@example.com
+      </a>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+

@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects | Timothy Marshall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="./">TM</a>
+
+      <div class="navlinks">
+        <a href="./project.html">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./resume-hub.html">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Projects</h1>
+      <p class="summary">
+        A curated set of builds that show real design, debugging, and validation work.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card project">
+        <h2>Search-and-Rescue System (Senior Capstone — Infinity Labs)</h2>
+        <p>
+          Senior design project focused on system integration, testing, validation,
+          and engineering documentation.
+        </p>
+        <a class="textlink" href="./projects/sar-capstone.html">Case study →</a>
+      </article>
+
+      <article class="card project">
+        <h2>Frame-Off Resto-Mod: 1977 Kawasaki KZ650</h2>
+        <p>
+          Complete teardown and rebuild with emphasis on electrical reliability,
+          wiring/grounding, and mechanical/electrical integration.
+        </p>
+        <a class="textlink" href="./projects/kz650-restomod.html">Case study →</a>
+      </article>
+
+      <article class="card project">
+        <h2>Drivetrain Swap: 1999 Firebird (V6 → 5.7L LT1) <span class="muted">(In progress)</span></h2>
+        <p>
+          Ongoing conversion including planning, wiring integration, subsystem compatibility,
+          and validation approach.
+        </p>
+        <a class="textlink" href="./projects/firebird-lt1.html">Case study →</a>
+      </article>
+
+      <article class="card project">
+        <h2>Personal Robotics Project</h2>
+        <p>
+          Long-term robotics build combining coursework and independent development:
+          integration, control, and debugging.
+        </p>
+        <a class="textlink" href="./projects/personal-robotics.html">Case study →</a>
+      </article>
+    </section>
+
+    <p style="margin-top: 18px;">
+      <a class="textlink" href="./">← Back home</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

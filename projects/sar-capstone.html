@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project | Timothy Marshall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="../">TM</a>
+      <div class="navlinks">
+        <a href="../project.html">Projects</a>
+        <a href="../research.html">Research</a>
+        <a href="../resume.pdf">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Project Title</h1>
+      <p class="muted">Write-up in progress.</p>
+    </section>
+
+      <figure class="card" style="margin-top: 16px;">
+        <img
+          src="../assets/sar/sar-bigwheels.jpg"
+          alt="SAR platform with large wheels for terrain traversal"
+          style="width:100%; border-radius: 14px;"
+        >
+        <figcaption class="muted" style="margin-top: 8px;">
+          SAR platform configured for rough-terrain mobility.
+        </figcaption>
+      </figure>
+      
+      <section style="margin-top: 16px;">
+        <h2>Gallery</h2>
+      
+        <div class="grid">
+          <article class="card">
+            <img
+              src="../assets/sar/sar-topview.jpg"
+              alt="Top-down view of SAR system layout"
+              style="width:100%; border-radius: 14px;"
+            >
+            <p class="muted" style="margin-top: 8px;">
+              Top-down view showing system layout and integration.
+            </p>
+          </article>
+      
+          <article class="card">
+            <img
+              src="../assets/sar/sar-testing.jpg"
+              alt="SAR system during testing"
+              style="width:100%; border-radius: 14px;"
+            >
+            <p class="muted" style="margin-top: 8px;">
+              System testing and validation in progress.
+            </p>
+          </article>
+        </div>
+      </section>
+
+<!--
+          <section style="margin-top: 16px;">
+      <h2>Video Demonstration</h2>
+    
+      <div class="card">
+        <div style="position: relative; padding-top: 56.25%;">
+          <iframe
+            src="https://www.youtube.com/embed/VIDEO_ID"
+            title="SAR system demonstration"
+            style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0; border-radius: 14px;"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+    
+        <p class="muted" style="margin-top: 10px;">
+          Demonstration of the SAR platform during testing and validation.
+        </p>
+      </div>
+    </section>
+
+-->
+
+    
+    <p style="margin-top: 18px;">
+      <a class="textlink" href="../project.html">← Back to Projects</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

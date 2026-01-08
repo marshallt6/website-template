@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Resume | Timothy Marshall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="./">TM</a>
+      <div class="navlinks">
+        <a href="./project.html">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./resume-hub.html">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Resume</h1>
+      <p class="summary">
+        I maintain a few tailored resume versions for different role types.
+        Please select the version that best matches the position.
+      </p>
+
+      <div class="cta">
+        <a class="button primary"
+           href="./resume-general.pdf"
+           target="_blank"
+           rel="noopener">
+          General Engineering Resume
+        </a>
+
+        <a class="button"
+           href="./resume-embedded.pdf"
+           target="_blank"
+           rel="noopener">
+          Embedded Systems Resume
+        </a>
+
+        <a class="button"
+           href="./resume-research.pdf"
+           target="_blank"
+           rel="noopener">
+          Research / Robotics Resume
+        </a>
+      </div>
+    </section>
+
+    <p style="margin-top: 18px;">
+      <a class="textlink" href="./">← Back home</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

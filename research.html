@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research & Publications | Timothy Marshall</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="site">
+    <nav class="nav">
+      <a class="brand" href="./">TM</a>
+
+      <div class="navlinks">
+        <a href="./project.html">Projects</a>
+        <a href="./research.html">Research</a>
+        <a href="./resume-hub.html">Resume</a>
+        <a href="https://github.com/marshallt6" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero card">
+      <h1>Research & Publications</h1>
+      <p class="summary">
+        Published and academic research focused on electromechanical systems,
+        sensing, and system analysis.
+      </p>
+    </section>
+
+    <section class="grid">
+      <article class="card">
+        <h2>Published Research Paper</h2>
+        <p class="muted">
+          Peer-reviewed publication focused on <strong>[topic / domain]</strong>.
+        </p>
+        <ul>
+          <li>Problem formulation and analysis</li>
+          <li>Experimental or analytical methodology</li>
+          <li>Results and conclusions</li>
+        </ul>
+          <p>
+            <a class="textlink"
+               href="https://ieeexplore.ieee.org/document/10670632"
+               target="_blank"
+               rel="noopener">
+              IEEE Xplore →
+            </a>
+            <span class="sep">•</span>
+            <a class="textlink"
+               href="./published-paper.pdf"
+               target="_blank"
+               rel="noopener">
+              PDF →
+            </a>
+          </p>
+
+      </article>
+
+      <article class="card">
+        <h2>Encoder-Based Motor Analysis</h2>
+        <p class="muted">
+          Academic paper analyzing motor behavior using encoder feedback.
+        </p>
+        <ul>
+          <li>System modeling and assumptions</li>
+          <li>Encoder data acquisition</li>
+          <li>Performance analysis and validation</li>
+        </ul>
+        <p>
+          <a class="textlink" href="./encoder-motor.pdf" target="_blank" rel="noopener">
+            Read paper →
+          </a>
+        </p>
+      </article>
+    </section>
+
+    <p style="margin-top: 18px;">
+      <a class="textlink" href="./">← Back home</a>
+    </p>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="y"></span> Timothy Marshall</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
